@@ -6,7 +6,7 @@
 
 [//]: # (BEGIN_TF_DOCS)
 Creates an SSH key pair and stores the private key in
-a SecureString SSM parameter.
+a `SecureString` SSM parameter (consider it insecure).
 
 ## Usage
 
