@@ -37,8 +37,8 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_key_pair"></a> [key\_pair](#output\_key\_pair) | n/a |
-| <a name="output_ssm_parameter"></a> [ssm\_parameter](#output\_ssm\_parameter) | n/a |
+| <a name="output_key_pair"></a> [key\_pair](#output\_key\_pair) | The EC2 key pair resource |
+| <a name="output_ssm_parameter"></a> [ssm\_parameter](#output\_ssm\_parameter) | The SSM parameter resource |
 
 ## Providers
 
