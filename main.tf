@@ -1,9 +1,6 @@
 /**
- * # ec2-key-pair
- *
- * Deploys an SSH key pair and stores the private key in
- * a SecureString SSM parameter.
- *
+ * Creates an SSH key pair and stores the private key in
+ * a SecureString SSM parameter. *
  */
 
 terraform {
