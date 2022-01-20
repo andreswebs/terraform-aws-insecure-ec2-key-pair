@@ -1,26 +1,3 @@
-/**
- * Creates an SSH key pair and stores the private key in
- * a `SecureString` SSM parameter (consider it insecure).
- */
-
-terraform {
-  required_version = ">= 1.0.0"
-
-  required_providers {
-
-    aws = {
-      source  = "hashicorp/aws"
-      version = ">= 3.52.0"
-    }
-
-    tls = {
-      source = "hashicorp/tls"
-      version = ">= 3.1.0"
-    }
-
-  }
-}
-
 resource "tls_private_key" "this" {
   algorithm = "RSA"
 }

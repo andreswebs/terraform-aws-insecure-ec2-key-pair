@@ -4,9 +4,11 @@
 
 **USED FOR DEMONSTRATION PURPOSES ONLY.**
 
-[//]: # (BEGIN_TF_DOCS)
 Creates an SSH key pair and stores the private key in
 a `SecureString` SSM parameter (consider it insecure).
+
+[//]: # (BEGIN_TF_DOCS)
+
 
 ## Usage
 
