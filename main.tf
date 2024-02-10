@@ -1,5 +1,5 @@
 resource "tls_private_key" "this" {
-  algorithm = "RSA"
+  algorithm = "ED25519"
 }
 
 resource "aws_key_pair" "this" {
