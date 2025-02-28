@@ -30,6 +30,7 @@ module "ec2_keypair" {
 |------|-------------|------|---------|:--------:|
 | <a name="input_key_name"></a> [key\_name](#input\_key\_name) | EC2 key pair name | `string` | n/a | yes |
 | <a name="input_ssm_parameter_name"></a> [ssm\_parameter\_name](#input\_ssm\_parameter\_name) | Stores the private key. | `string` | n/a | yes |
+| <a name="input_tags"></a> [tags](#input\_tags) | Tags to apply to all created resources | `map(string)` | `{}` | no |
 
 ## Modules
 
